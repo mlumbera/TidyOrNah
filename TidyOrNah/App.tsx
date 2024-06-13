@@ -14,7 +14,7 @@ const App: React.FC = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Menu">
         <Stack.Screen name="Menu" component={Menu} />
-        <Stack.Screen name="Cam" component={Upload} />
+        <Stack.Screen name="Upload" component={Upload} />
         <Stack.Screen name="Stats" component={Stats} />
         <Stack.Screen name="Acknowledge" component={Acknowledge} />
       </Stack.Navigator>
